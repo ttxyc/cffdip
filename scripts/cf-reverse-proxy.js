@@ -166,15 +166,16 @@ function generateOutputs(results, topCount, timestamp) {
     const topIps = results.slice(0, topCount);
     
     // 1. TXT 格式（纯 IP 列表，带注释）
-    const txtContent = [
-        `# Cloudflare 反代 IP 列表`,
-        `# 更新时间: ${timestamp}`,
-        `# 测试目标: ${CONFIG.testUrl}`,
-        `# 可用 IP 数: ${results.length}`,
-        `# 最快 IP: ${topIps[0]?.ip || '无'} (${topIps[0]?.latency || 0}ms)`,
-        ``,
-        ...topIps.map(item => `${item.ip.padEnd(16)} # ${item.latency}ms`)
-    ].join('\n');
+    // const txtContent = [
+    //     `# Cloudflare 反代 IP 列表`,
+    //     `# 更新时间: ${timestamp}`,
+    //     `# 测试目标: ${CONFIG.testUrl}`,
+    //     `# 可用 IP 数: ${results.length}`,
+    //     `# 最快 IP: ${topIps[0]?.ip || '无'} (${topIps[0]?.latency || 0}ms)`,
+    //     ``,
+    //     ...topIps.map(item => `${item.ip.padEnd(16)} # ${item.latency}ms`)
+    // ].join('\n');
+    const txtContent = topIps.map(item => item.ip).join('\n');
     
     // 2. 纯 IP 列表（无注释，方便脚本使用）
     const pureIps = topIps.map(item => item.ip).join('\n');
