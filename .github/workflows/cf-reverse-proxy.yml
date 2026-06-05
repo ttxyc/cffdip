@@ -1,0 +1,62 @@
+name: 🔄 Cloudflare 反代 IP 自动更新
+
+on:
+  # 手动触发
+  workflow_dispatch:
+  
+  # 定时触发：每 6 小时一次
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # 代码推送时触发（可选）
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'scripts/cf-reverse-proxy.js'
+
+# 权限设置
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  update-ips:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出代码
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+      
+      # 2. 设置 Node.js
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      # 3. 运行测速脚本
+      - name: 🚀 Run Cloudflare IP speed test
+        run: node scripts/cf-reverse-proxy.js
+      
+      # 4. 提交并推送结果
+      - name: 📤 Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cf-ips.txt cf-ips.json cf-ips.md 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "🤖 更新 Cloudflare 反代 IP 列表 [skip ci]"
+          git push
+      
+      # 5. 可选：部署到 GitHub Pages
+      - name: 🌐 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: '📄 更新 IP 列表'
+          destination_dir: './'
