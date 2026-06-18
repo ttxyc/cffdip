@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-06-18T15:16:49.652Z",
+  "timestamp": "2026-06-18T20:22:19.346Z",
   "testUrl": "https://www.cloudflare.com/cdn-cgi/trace",
   "totalAvailable": 21,
   "fastestIps": [
     {
       "ip": "104.21.85.84",
-      "latency": 27,
+      "latency": 26,
       "success": true
     },
     {
       "ip": "104.26.0.1",
-      "latency": 28,
+      "latency": 26,
       "success": true
     },
     {
@@ -20,49 +20,49 @@
     },
     {
       "ip": "104.25.85.85",
-      "latency": 29,
+      "latency": 34,
       "success": true
     },
     {
       "ip": "190.93.245.85",
-      "latency": 31,
+      "latency": 36,
+      "success": true
+    },
+    {
+      "ip": "104.17.160.232",
+      "latency": 38,
       "success": true
     },
     {
       "ip": "104.18.170.170",
-      "latency": 31,
+      "latency": 40,
+      "success": true
+    },
+    {
+      "ip": "104.20.0.1",
+      "latency": 40,
+      "success": true
+    },
+    {
+      "ip": "198.41.209.134",
+      "latency": 41,
       "success": true
     },
     {
       "ip": "104.17.114.21",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.17.178.42",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "188.114.96.1",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.21.96.1",
-      "latency": 32,
+      "latency": 41,
       "success": true
     }
   ],
   "allIps": [
     {
       "ip": "104.21.85.84",
-      "latency": 27,
+      "latency": 26,
       "success": true
     },
     {
       "ip": "104.26.0.1",
-      "latency": 28,
+      "latency": 26,
       "success": true
     },
     {
@@ -72,92 +72,92 @@
     },
     {
       "ip": "104.25.85.85",
-      "latency": 29,
-      "success": true
-    },
-    {
-      "ip": "190.93.245.85",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.18.170.170",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.17.114.21",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.17.178.42",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "188.114.96.1",
-      "latency": 31,
-      "success": true
-    },
-    {
-      "ip": "104.21.96.1",
-      "latency": 32,
-      "success": true
-    },
-    {
-      "ip": "104.17.220.48",
-      "latency": 33,
-      "success": true
-    },
-    {
-      "ip": "104.24.0.1",
       "latency": 34,
       "success": true
     },
     {
-      "ip": "172.66.170.170",
-      "latency": 35,
-      "success": true
-    },
-    {
-      "ip": "198.41.209.134",
+      "ip": "190.93.245.85",
       "latency": 36,
       "success": true
     },
     {
-      "ip": "104.17.109.223",
+      "ip": "104.17.160.232",
       "latency": 38,
       "success": true
     },
     {
-      "ip": "104.19.156.231",
-      "latency": 38,
+      "ip": "104.18.170.170",
+      "latency": 40,
       "success": true
     },
     {
       "ip": "104.20.0.1",
-      "latency": 38,
+      "latency": 40,
       "success": true
     },
     {
-      "ip": "162.159.128.1",
+      "ip": "198.41.209.134",
+      "latency": 41,
+      "success": true
+    },
+    {
+      "ip": "104.17.114.21",
+      "latency": 41,
+      "success": true
+    },
+    {
+      "ip": "104.17.109.223",
       "latency": 42,
       "success": true
     },
     {
-      "ip": "104.17.160.232",
-      "latency": 45,
+      "ip": "172.66.170.170",
+      "latency": 43,
       "success": true
     },
     {
-      "ip": "172.67.128.1",
-      "latency": 49,
+      "ip": "104.17.220.48",
+      "latency": 43,
       "success": true
     },
     {
       "ip": "104.16.153.84",
-      "latency": 66,
+      "latency": 43,
+      "success": true
+    },
+    {
+      "ip": "188.114.96.1",
+      "latency": 44,
+      "success": true
+    },
+    {
+      "ip": "104.24.0.1",
+      "latency": 44,
+      "success": true
+    },
+    {
+      "ip": "172.67.128.1",
+      "latency": 46,
+      "success": true
+    },
+    {
+      "ip": "104.17.178.42",
+      "latency": 47,
+      "success": true
+    },
+    {
+      "ip": "104.19.156.231",
+      "latency": 48,
+      "success": true
+    },
+    {
+      "ip": "162.159.128.1",
+      "latency": 48,
+      "success": true
+    },
+    {
+      "ip": "104.21.96.1",
+      "latency": 49,
       "success": true
     }
   ]
