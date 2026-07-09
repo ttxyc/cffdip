@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-07-09T02:37:12.343Z",
+  "timestamp": "2026-07-09T09:37:40.443Z",
   "testUrl": "https://www.cloudflare.com/cdn-cgi/trace",
   "totalAvailable": 21,
   "fastestIps": [
     {
       "ip": "104.26.0.1",
-      "latency": 10,
+      "latency": 13,
       "success": true
     },
     {
       "ip": "190.93.245.85",
-      "latency": 11,
+      "latency": 15,
       "success": true
     },
     {
-      "ip": "172.66.170.170",
-      "latency": 15,
+      "ip": "104.18.170.170",
+      "latency": 16,
       "success": true
     },
     {
@@ -24,50 +24,50 @@
       "success": true
     },
     {
-      "ip": "104.18.170.170",
-      "latency": 17,
+      "ip": "104.25.85.85",
+      "latency": 16,
       "success": true
     },
     {
       "ip": "173.245.58.170",
-      "latency": 18,
+      "latency": 17,
       "success": true
     },
     {
-      "ip": "104.25.85.85",
-      "latency": 20,
+      "ip": "172.66.170.170",
+      "latency": 17,
       "success": true
     },
     {
-      "ip": "198.41.209.134",
-      "latency": 38,
+      "ip": "104.17.160.232",
+      "latency": 37,
       "success": true
     },
     {
-      "ip": "104.19.156.231",
-      "latency": 38,
+      "ip": "162.159.128.1",
+      "latency": 37,
       "success": true
     },
     {
-      "ip": "104.17.178.42",
-      "latency": 38,
+      "ip": "104.20.0.1",
+      "latency": 37,
       "success": true
     }
   ],
   "allIps": [
     {
       "ip": "104.26.0.1",
-      "latency": 10,
+      "latency": 13,
       "success": true
     },
     {
       "ip": "190.93.245.85",
-      "latency": 11,
+      "latency": 15,
       "success": true
     },
     {
-      "ip": "172.66.170.170",
-      "latency": 15,
+      "ip": "104.18.170.170",
+      "latency": 16,
       "success": true
     },
     {
@@ -76,57 +76,42 @@
       "success": true
     },
     {
-      "ip": "104.18.170.170",
-      "latency": 17,
+      "ip": "104.25.85.85",
+      "latency": 16,
       "success": true
     },
     {
       "ip": "173.245.58.170",
-      "latency": 18,
+      "latency": 17,
       "success": true
     },
     {
-      "ip": "104.25.85.85",
-      "latency": 20,
-      "success": true
-    },
-    {
-      "ip": "198.41.209.134",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "104.19.156.231",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "104.17.178.42",
-      "latency": 38,
+      "ip": "172.66.170.170",
+      "latency": 17,
       "success": true
     },
     {
       "ip": "104.17.160.232",
+      "latency": 37,
+      "success": true
+    },
+    {
+      "ip": "162.159.128.1",
+      "latency": 37,
+      "success": true
+    },
+    {
+      "ip": "104.20.0.1",
+      "latency": 37,
+      "success": true
+    },
+    {
+      "ip": "104.16.153.84",
       "latency": 38,
       "success": true
     },
     {
       "ip": "172.67.128.1",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "188.114.96.1",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "162.159.128.1",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "104.20.0.1",
       "latency": 38,
       "success": true
     },
@@ -141,23 +126,38 @@
       "success": true
     },
     {
-      "ip": "104.17.109.223",
+      "ip": "198.41.209.134",
       "latency": 39,
       "success": true
     },
     {
-      "ip": "104.16.153.84",
-      "latency": 39,
-      "success": true
-    },
-    {
-      "ip": "104.17.114.21",
+      "ip": "104.19.156.231",
       "latency": 39,
       "success": true
     },
     {
       "ip": "104.21.96.1",
       "latency": 39,
+      "success": true
+    },
+    {
+      "ip": "188.114.96.1",
+      "latency": 39,
+      "success": true
+    },
+    {
+      "ip": "104.17.109.223",
+      "latency": 40,
+      "success": true
+    },
+    {
+      "ip": "104.17.114.21",
+      "latency": 40,
+      "success": true
+    },
+    {
+      "ip": "104.17.178.42",
+      "latency": 40,
       "success": true
     }
   ]
