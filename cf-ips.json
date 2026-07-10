@@ -1,40 +1,45 @@
 {
-  "timestamp": "2026-07-10T02:39:18.863Z",
+  "timestamp": "2026-07-10T09:29:10.364Z",
   "testUrl": "https://www.cloudflare.com/cdn-cgi/trace",
   "totalAvailable": 21,
   "fastestIps": [
     {
       "ip": "104.26.0.1",
-      "latency": 10,
-      "success": true
-    },
-    {
-      "ip": "172.66.170.170",
-      "latency": 14,
-      "success": true
-    },
-    {
-      "ip": "173.245.58.170",
-      "latency": 15,
+      "latency": 9,
       "success": true
     },
     {
       "ip": "190.93.245.85",
+      "latency": 12,
+      "success": true
+    },
+    {
+      "ip": "173.245.58.170",
+      "latency": 14,
+      "success": true
+    },
+    {
+      "ip": "104.21.85.84",
+      "latency": 15,
+      "success": true
+    },
+    {
+      "ip": "172.66.170.170",
       "latency": 15,
       "success": true
     },
     {
       "ip": "104.18.170.170",
-      "latency": 15,
+      "latency": 16,
+      "success": true
+    },
+    {
+      "ip": "104.17.220.48",
+      "latency": 17,
       "success": true
     },
     {
       "ip": "104.25.85.85",
-      "latency": 15,
-      "success": true
-    },
-    {
-      "ip": "104.21.85.84",
       "latency": 18,
       "success": true
     },
@@ -44,49 +49,49 @@
       "success": true
     },
     {
-      "ip": "104.17.178.42",
-      "latency": 37,
-      "success": true
-    },
-    {
-      "ip": "104.17.160.232",
-      "latency": 37,
+      "ip": "104.24.0.1",
+      "latency": 36,
       "success": true
     }
   ],
   "allIps": [
     {
       "ip": "104.26.0.1",
-      "latency": 10,
-      "success": true
-    },
-    {
-      "ip": "172.66.170.170",
-      "latency": 14,
-      "success": true
-    },
-    {
-      "ip": "173.245.58.170",
-      "latency": 15,
+      "latency": 9,
       "success": true
     },
     {
       "ip": "190.93.245.85",
+      "latency": 12,
+      "success": true
+    },
+    {
+      "ip": "173.245.58.170",
+      "latency": 14,
+      "success": true
+    },
+    {
+      "ip": "104.21.85.84",
+      "latency": 15,
+      "success": true
+    },
+    {
+      "ip": "172.66.170.170",
       "latency": 15,
       "success": true
     },
     {
       "ip": "104.18.170.170",
-      "latency": 15,
+      "latency": 16,
+      "success": true
+    },
+    {
+      "ip": "104.17.220.48",
+      "latency": 17,
       "success": true
     },
     {
       "ip": "104.25.85.85",
-      "latency": 15,
-      "success": true
-    },
-    {
-      "ip": "104.21.85.84",
       "latency": 18,
       "success": true
     },
@@ -96,17 +101,22 @@
       "success": true
     },
     {
+      "ip": "104.24.0.1",
+      "latency": 36,
+      "success": true
+    },
+    {
+      "ip": "104.19.156.231",
+      "latency": 37,
+      "success": true
+    },
+    {
       "ip": "104.17.178.42",
       "latency": 37,
       "success": true
     },
     {
-      "ip": "104.17.160.232",
-      "latency": 37,
-      "success": true
-    },
-    {
-      "ip": "172.67.128.1",
+      "ip": "188.114.96.1",
       "latency": 37,
       "success": true
     },
@@ -116,17 +126,7 @@
       "success": true
     },
     {
-      "ip": "104.24.0.1",
-      "latency": 37,
-      "success": true
-    },
-    {
-      "ip": "198.41.209.134",
-      "latency": 38,
-      "success": true
-    },
-    {
-      "ip": "104.16.153.84",
+      "ip": "104.17.160.232",
       "latency": 38,
       "success": true
     },
@@ -136,27 +136,27 @@
       "success": true
     },
     {
-      "ip": "188.114.96.1",
-      "latency": 38,
-      "success": true
-    },
-    {
       "ip": "104.17.109.223",
       "latency": 39,
       "success": true
     },
     {
-      "ip": "104.17.220.48",
-      "latency": 40,
+      "ip": "198.41.209.134",
+      "latency": 39,
+      "success": true
+    },
+    {
+      "ip": "104.16.153.84",
+      "latency": 39,
       "success": true
     },
     {
       "ip": "104.17.114.21",
-      "latency": 40,
+      "latency": 39,
       "success": true
     },
     {
-      "ip": "104.19.156.231",
+      "ip": "172.67.128.1",
       "latency": 40,
       "success": true
     }
