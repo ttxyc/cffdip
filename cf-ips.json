@@ -1,15 +1,20 @@
 {
-  "timestamp": "2026-07-20T02:38:08.394Z",
+  "timestamp": "2026-07-20T08:52:01.265Z",
   "testUrl": "https://www.cloudflare.com/cdn-cgi/trace",
   "totalAvailable": 21,
   "fastestIps": [
     {
-      "ip": "190.93.245.85",
-      "latency": 8,
+      "ip": "172.66.170.170",
+      "latency": 9,
       "success": true
     },
     {
-      "ip": "104.26.0.1",
+      "ip": "173.245.58.170",
+      "latency": 10,
+      "success": true
+    },
+    {
+      "ip": "190.93.245.85",
       "latency": 10,
       "success": true
     },
@@ -24,44 +29,44 @@
       "success": true
     },
     {
-      "ip": "172.66.170.170",
-      "latency": 12,
+      "ip": "104.26.0.1",
+      "latency": 11,
       "success": true
     },
     {
       "ip": "104.21.85.84",
-      "latency": 13,
+      "latency": 12,
       "success": true
     },
     {
-      "ip": "173.245.58.170",
-      "latency": 15,
+      "ip": "104.24.0.1",
+      "latency": 17,
       "success": true
     },
     {
-      "ip": "172.67.128.1",
-      "latency": 21,
+      "ip": "104.17.114.21",
+      "latency": 18,
       "success": true
     },
     {
-      "ip": "104.20.0.1",
-      "latency": 21,
-      "success": true
-    },
-    {
-      "ip": "104.16.153.84",
-      "latency": 22,
+      "ip": "104.17.178.42",
+      "latency": 18,
       "success": true
     }
   ],
   "allIps": [
     {
-      "ip": "190.93.245.85",
-      "latency": 8,
+      "ip": "172.66.170.170",
+      "latency": 9,
       "success": true
     },
     {
-      "ip": "104.26.0.1",
+      "ip": "173.245.58.170",
+      "latency": 10,
+      "success": true
+    },
+    {
+      "ip": "190.93.245.85",
       "latency": 10,
       "success": true
     },
@@ -76,32 +81,67 @@
       "success": true
     },
     {
-      "ip": "172.66.170.170",
-      "latency": 12,
+      "ip": "104.26.0.1",
+      "latency": 11,
       "success": true
     },
     {
       "ip": "104.21.85.84",
-      "latency": 13,
+      "latency": 12,
       "success": true
     },
     {
-      "ip": "173.245.58.170",
-      "latency": 15,
+      "ip": "104.24.0.1",
+      "latency": 17,
+      "success": true
+    },
+    {
+      "ip": "104.17.114.21",
+      "latency": 18,
+      "success": true
+    },
+    {
+      "ip": "104.17.178.42",
+      "latency": 18,
+      "success": true
+    },
+    {
+      "ip": "104.17.160.232",
+      "latency": 18,
       "success": true
     },
     {
       "ip": "172.67.128.1",
-      "latency": 21,
+      "latency": 18,
       "success": true
     },
     {
-      "ip": "104.20.0.1",
-      "latency": 21,
+      "ip": "198.41.209.134",
+      "latency": 19,
+      "success": true
+    },
+    {
+      "ip": "104.17.220.48",
+      "latency": 20,
       "success": true
     },
     {
       "ip": "104.16.153.84",
+      "latency": 20,
+      "success": true
+    },
+    {
+      "ip": "162.159.128.1",
+      "latency": 20,
+      "success": true
+    },
+    {
+      "ip": "104.21.96.1",
+      "latency": 21,
+      "success": true
+    },
+    {
+      "ip": "104.17.109.223",
       "latency": 22,
       "success": true
     },
@@ -111,53 +151,13 @@
       "success": true
     },
     {
-      "ip": "104.17.178.42",
-      "latency": 22,
-      "success": true
-    },
-    {
-      "ip": "104.21.96.1",
-      "latency": 22,
-      "success": true
-    },
-    {
       "ip": "188.114.96.1",
       "latency": 22,
       "success": true
     },
     {
-      "ip": "104.17.220.48",
+      "ip": "104.20.0.1",
       "latency": 23,
-      "success": true
-    },
-    {
-      "ip": "104.17.114.21",
-      "latency": 23,
-      "success": true
-    },
-    {
-      "ip": "104.24.0.1",
-      "latency": 23,
-      "success": true
-    },
-    {
-      "ip": "198.41.209.134",
-      "latency": 25,
-      "success": true
-    },
-    {
-      "ip": "104.17.109.223",
-      "latency": 27,
-      "success": true
-    },
-    {
-      "ip": "104.17.160.232",
-      "latency": 27,
-      "success": true
-    },
-    {
-      "ip": "162.159.128.1",
-      "latency": 27,
       "success": true
     }
   ]
